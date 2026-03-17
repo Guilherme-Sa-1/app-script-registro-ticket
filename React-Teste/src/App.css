@@ -1,0 +1,89 @@
+/* Reset básico para tirar margens padrão do navegador */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Fundo da tela todo */
+body {
+  background-color: #f4f7f6;
+}
+
+/* Container principal (centraliza o app na tela) */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #34495e;
+}
+
+/* Estilo para transformar nossas sections em "Cards" (cartões) */
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+/* Deixa os formulários alinhados lado a lado */
+form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; /* Se a tela for pequena, joga para a linha de baixo */
+}
+
+/* Estilo dos campos de digitar */
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1; 
+  min-width: 150px;
+  font-size: 1rem;
+}
+
+/* Estilo do botão principal */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+/* Estilo da lista do extrato */
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: #fdfdfd;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  display: flex;
+  align-items: center;
+}

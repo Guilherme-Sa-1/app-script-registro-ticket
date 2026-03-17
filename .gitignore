@@ -1,0 +1,23 @@
+# === VARIÁVEIS DE AMBIENTE (MUITO IMPORTANTE) ===
+# Nunca envie suas senhas e chaves do Supabase para o GitHub!
+.env
+
+# === FRONTEND (React / Node.js) ===
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# === BACKEND (Python) ===
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# === EDITORES DE CÓDIGO E SISTEMA ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
